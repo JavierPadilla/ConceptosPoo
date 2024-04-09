@@ -41,6 +41,17 @@ Empleado emp2 = new EmpleadoComission()
     ComissionPorcentaje = 0.03f,
     Sales = 3450123M
 };
- Console.WriteLine(emp2);   
+ Console.WriteLine(emp2);
+Empleado emp3 = new EmpleadoPorHora()
+{
+    Id = 1012,
+    FirstName = "Karen Yuseth",
+    LastName = "Plascencia Garcia",
+    BirthDate = new Date(1990, 11, 29),
+    HiringDate = new Date(2006, 03, 26),
+    IsActive = true,
+    Hours = 45,
+    HourValue = 45.6M
+};
 
 
