@@ -98,7 +98,7 @@ namespace InterfaceNewPoo
                 fnacyear = Valida.Entero(TxtFNacYear.Text);
       
              int x =DateTime.Now.Year;
-                MessageBox.Show($"{x}");
+               
                 
                 if (fnacyear > x)
                 {
@@ -143,7 +143,6 @@ namespace InterfaceNewPoo
 
                 }
                 errorProvider1.SetError(TxtFHirinYear, "");
-                MessageBox.Show($"{x}");
                 if (x - fnacyear < 18 )
                 {
                     errorProvider1.SetError(TxtFHirinYear, "Error en el an'io de contratacion\n Debes tener mas de 18 an'ios para trabajar");
